@@ -38,7 +38,7 @@ function fizzbuzzer(max) {
   }
   
 }
-var maxEntry = "45"
+var maxEntry = "Enter an integer"
 while (maxEntry!=parseInt(maxEntry) && maxEntry % 1!=0){
   var maxEntry = prompt("Please enter an integer", maxEntry);
 }
